@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+body {
+    background-image: image("file:///C:/Users/Juanm/index.html");
+}   
+
+.content {
+    font-family: Arial, sans-serif;
+    background-color: rgb(77, 106, 124);
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.result-table {
+    background-color: darkcyan;
+    font-family: 'Roboto Condensed', sans-serif;
+    ;
+    color: aliceblue;
+    height: auto;
+    width: 400px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+}
+
+h2{
+    margin: 20px;
+}
+
+table{
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+td,th{
+    padding: 5px;
+    text-align: center;
+    border: 2px solid lightseagreen;
+    border-radius: 10px;
+}
+
+td:hover { 
+    background-color: lightskyblue;
+}
